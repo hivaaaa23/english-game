@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fc-1",
+    "word": "Brave",
+    "ipa": "/breɪv/",
+    "partOfSpeech": "adjective",
+    "meaningFa": "شجاع، دلیر",
+    "exampleEn": "She is a brave firefighter.",
+    "exampleFa": "او یک آتش‌نشان شجاع است.",
+    "category": "صفات"
+  },
+  {
+    "id": "fc-2",
+    "word": "Curious",
+    "ipa": "/ˈkjʊəriəs/",
+    "partOfSpeech": "adjective",
+    "meaningFa": "کنجکاو، جستجوگر",
+    "exampleEn": "Children are always curious about everything.",
+    "exampleFa": "کودکان همیشه در مورد همه چیز کنجکاو هستند.",
+    "category": "صفات"
+  },
+  {
+    "id": "fc-3",
+    "word": "Journey",
+    "ipa": "/ˈdʒɜːni/",
+    "partOfSpeech": "noun",
+    "meaningFa": "سفر، ماجراجویی",
+    "exampleEn": "Enjoy the journey, not just the destination.",
+    "exampleFa": "از مسیر سفر لذت ببر، نه فقط از مقصد.",
+    "category": "سفر"
+  },
+  {
+    "id": "fc-4",
+    "word": "Accomplish",
+    "ipa": "/əˈkʌmplɪʃ/",
+    "partOfSpeech": "verb",
+    "meaningFa": "به سرانجام رساندن، دستیابی",
+    "exampleEn": "You can accomplish your goals with daily practice.",
+    "exampleFa": "با تمرین روزانه می‌توانی به اهدافت دست یابی.",
+    "category": "افعال"
+  },
+  {
+    "id": "fc-5",
+    "word": "Resilient",
+    "ipa": "/rɪˈzɪliənt/",
+    "partOfSpeech": "adjective",
+    "meaningFa": "انعطاف‌پذیر، سرسخت و مقاوم",
+    "exampleEn": "Gamers are resilient and keep trying until they win.",
+    "exampleFa": "گیمرها سرسختند و تا برنده شدن تلاش می‌کنند.",
+    "category": "صفات"
+  }
+]

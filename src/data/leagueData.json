@@ -1,0 +1,78 @@
+{
+  "currentTier": "لیگ طلا (Gold League)",
+  "tierIcon": "trophy",
+  "daysRemaining": 3,
+  "hoursRemaining": 14,
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "آرتین رادمنش",
+      "xp": 890,
+      "streak": 12,
+      "avatarColor": "#1F9A8A",
+      "avatarLetter": "آ",
+      "isUser": false,
+      "status": "promote"
+    },
+    {
+      "rank": 2,
+      "name": "سارا محمدی",
+      "xp": 760,
+      "streak": 8,
+      "avatarColor": "#7B63D9",
+      "avatarLetter": "س",
+      "isUser": false,
+      "status": "promote"
+    },
+    {
+      "rank": 3,
+      "name": "شما (قهرمان زبان)",
+      "xp": 420,
+      "streak": 4,
+      "avatarColor": "#3DAA6D",
+      "avatarLetter": "ش",
+      "isUser": true,
+      "status": "promote"
+    },
+    {
+      "rank": 4,
+      "name": "پویا کریمی",
+      "xp": 390,
+      "streak": 6,
+      "avatarColor": "#12746B",
+      "avatarLetter": "پ",
+      "isUser": false,
+      "status": "stay"
+    },
+    {
+      "rank": 5,
+      "name": "نیلوفر افشار",
+      "xp": 310,
+      "streak": 3,
+      "avatarColor": "#7B63D9",
+      "avatarLetter": "ن",
+      "isUser": false,
+      "status": "stay"
+    },
+    {
+      "rank": 6,
+      "name": "بهرام روشن",
+      "xp": 280,
+      "streak": 2,
+      "avatarColor": "#1F9A8A",
+      "avatarLetter": "ب",
+      "isUser": false,
+      "status": "stay"
+    },
+    {
+      "rank": 7,
+      "name": "مهسا ناصری",
+      "xp": 140,
+      "streak": 1,
+      "avatarColor": "#12746B",
+      "avatarLetter": "م",
+      "isUser": false,
+      "status": "demote"
+    }
+  ]
+}

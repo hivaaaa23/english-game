@@ -1,0 +1,100 @@
+[
+  {
+    "id": "g-1",
+    "level": 1,
+    "titleFa": "فعل To Be (حال ساده)",
+    "titleEn": "To Be Verbs (Am, Is, Are)",
+    "description": "پایه مکالمات روزمره: معرفی خود و دیگران",
+    "unit": 1,
+    "xpReward": 15,
+    "icon": "sparkles",
+    "status": "completed",
+    "questions": [
+      {
+        "promptFa": "جمله «من یک دانش‌آموز هستم» به انگلیسی کدام است؟",
+        "options": [
+          "I are a student.",
+          "I am a student.",
+          "I is a student."
+        ],
+        "answerIndex": 1,
+        "explanation": "برای ضمیر I همیشه از am استفاده می‌کنیم: I am a student."
+      }
+    ]
+  },
+  {
+    "id": "g-2",
+    "level": 2,
+    "titleFa": "ضمایر فاعلی (Subject Pronouns)",
+    "titleEn": "Subject Pronouns",
+    "description": "I, You, He, She, It, We, They",
+    "unit": 1,
+    "xpReward": 15,
+    "icon": "user",
+    "status": "completed",
+    "questions": [
+      {
+        "promptFa": "برای «او (یک زن)» از کدام ضمیر استفاده می‌شود؟",
+        "options": ["He", "She", "They"],
+        "answerIndex": 1,
+        "explanation": "She برای اشاره به یک خانم استفاده می‌شود."
+      }
+    ]
+  },
+  {
+    "id": "g-3",
+    "level": 3,
+    "titleFa": "افعال با قاعده (Present Simple)",
+    "titleEn": "Regular Verbs",
+    "description": "کارهای روزمره و اضافه شدن s برای سوم شخص",
+    "unit": 1,
+    "xpReward": 20,
+    "icon": "book-open",
+    "status": "current",
+    "questions": [
+      {
+        "promptFa": "کدام گزینه صحیح است؟",
+        "options": [
+          "He play football every day.",
+          "He plays football every day.",
+          "He playing football every day."
+        ],
+        "answerIndex": 1,
+        "explanation": "در زمان حال ساده با He/She/It فعل پسوند -s یا -es می‌گیرد."
+      }
+    ]
+  },
+  {
+    "id": "g-4",
+    "level": 4,
+    "titleFa": "منفی کردن جملات با Don't / Doesn't",
+    "titleEn": "Negative Sentences",
+    "description": "چگونه کارهایی که انجام نمی‌دهیم را بیان کنیم",
+    "unit": 1,
+    "xpReward": 20,
+    "icon": "shield-alert",
+    "status": "locked"
+  },
+  {
+    "id": "g-5",
+    "level": 5,
+    "titleFa": "سوالی کردن با Do و Does",
+    "titleEn": "Questions with Do/Does",
+    "description": "پرسیدن سوالات بله/خیر در انگلیسی",
+    "unit": 2,
+    "xpReward": 25,
+    "icon": "help-circle",
+    "status": "locked"
+  },
+  {
+    "id": "g-6",
+    "level": 6,
+    "titleFa": "آزمون نهایی پادشاهی گرامر!",
+    "titleEn": "Boss Challenge: Unit 1",
+    "description": "نبرد با رییس فصل و باز کردن مدال پادشاهی",
+    "unit": 2,
+    "xpReward": 50,
+    "icon": "crown",
+    "status": "locked"
+  }
+]

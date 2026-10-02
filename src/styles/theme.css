@@ -1,0 +1,145 @@
+:root {
+  /* User Defined Color Mood */
+  --color-primary-teal: #1F9A8A;
+  --color-dark-teal: #12746B;
+  --color-mint: #DDF3EC;
+  --color-cream-bg: #FBF8EE;
+  --color-card-white: #FFFFFF;
+  --color-border-light: #E4EEE9;
+  --color-text-deep: #1D2B33;
+  --color-text-muted: #6B7C85;
+  --color-gold: #F2C14E;
+  --color-purple: #7B63D9;
+  --color-coral: #E5584F;
+  --color-success: #3DAA6D;
+  --color-dark-slate: #1F3A44;
+
+  --font-persian: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+  --font-game: 'Fredoka', 'Nunito', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-persian);
+  color: var(--color-text-deep);
+  background-color: var(--color-cream-bg);
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* English text helper */
+.font-en {
+  font-family: var(--font-game);
+  direction: ltr;
+  display: inline-block;
+}
+
+/* Modern Soft Card */
+.game-card {
+  background-color: var(--color-card-white);
+  border: 1.5px solid var(--color-border-light);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 16px rgba(29, 43, 51, 0.05), 0 2px 4px rgba(18, 116, 107, 0.04);
+  position: relative;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Chunky Game Buttons with tactile dark teal bottom edge */
+.btn-3d {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  border-radius: 1.25rem;
+  border: 1.5px solid var(--color-dark-teal);
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  white-space: nowrap;
+}
+
+.btn-3d:active {
+  transform: translateY(3px);
+}
+
+/* Teal (Primary) - Chunky button with dark-teal bottom edge */
+.btn-teal {
+  background-color: var(--color-primary-teal);
+  color: #FFFFFF;
+  border-color: var(--color-dark-teal);
+  box-shadow: 0 4px 0 var(--color-dark-teal);
+}
+.btn-teal:active {
+  box-shadow: 0 1px 0 var(--color-dark-teal);
+}
+
+/* Mint (Soft Secondary) */
+.btn-mint {
+  background-color: var(--color-mint);
+  color: var(--color-dark-teal);
+  border-color: #BEE3D7;
+  box-shadow: 0 4px 0 #A8D9CA;
+}
+.btn-mint:active {
+  box-shadow: 0 1px 0 #A8D9CA;
+}
+
+/* White Card Button */
+.btn-white {
+  background-color: var(--color-card-white);
+  color: var(--color-text-deep);
+  border-color: var(--color-border-light);
+  box-shadow: 0 4px 0 #D5E4DE;
+}
+.btn-white:active {
+  box-shadow: 0 1px 0 #D5E4DE;
+}
+
+/* Success Green Button */
+.btn-green {
+  background-color: var(--color-success);
+  color: #FFFFFF;
+  border-color: #2F8856;
+  box-shadow: 0 4px 0 #2F8856;
+}
+.btn-green:active {
+  box-shadow: 0 1px 0 #2F8856;
+}
+
+/* Soft Purple Button */
+.btn-purple {
+  background-color: var(--color-purple);
+  color: #FFFFFF;
+  border-color: #5F47B8;
+  box-shadow: 0 4px 0 #5F47B8;
+}
+.btn-purple:active {
+  box-shadow: 0 1px 0 #5F47B8;
+}
+
+/* Coral Red Button (Hearts / Danger) */
+.btn-coral {
+  background-color: var(--color-coral);
+  color: #FFFFFF;
+  border-color: #BA3F37;
+  box-shadow: 0 4px 0 #BA3F37;
+}
+.btn-coral:active {
+  box-shadow: 0 1px 0 #BA3F37;
+}
+
+/* Light HUD Chip */
+.hud-chip {
+  background-color: var(--color-card-white);
+  border: 1.5px solid var(--color-border-light);
+  box-shadow: 0 2px 6px rgba(29, 43, 51, 0.05);
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  font-weight: 800;
+  color: var(--color-text-deep);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ZabanGame - Persian English Learning",
+  "description": "A gamified, mobile-first English learning game crafted for Persian speakers with interactive maps, flashcards, leagues, and tactile game feel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

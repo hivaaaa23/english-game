@@ -1,0 +1,52 @@
+[
+  {
+    "id": "v-1",
+    "theme": "غذا و نوشیدنی",
+    "themeEn": "Food & Drinks",
+    "icon": "coffee",
+    "completed": true,
+    "wordsCount": 12,
+    "color": "green",
+    "description": "کلمات رایج در رستوران، کافه و وعده‌های غذایی"
+  },
+  {
+    "id": "v-2",
+    "theme": "سفر و فرودگاه",
+    "themeEn": "Travel & Airport",
+    "icon": "plane",
+    "completed": false,
+    "wordsCount": 15,
+    "color": "teal",
+    "description": "اصطلاحات فرودگاه، هتل و پرسیدن آدرس"
+  },
+  {
+    "id": "v-3",
+    "theme": "احساسات و صفات",
+    "themeEn": "Emotions & Moods",
+    "icon": "smile",
+    "completed": false,
+    "wordsCount": 10,
+    "color": "purple",
+    "description": "بیان شادی، هیجان، خستگی و آرامش"
+  },
+  {
+    "id": "v-4",
+    "theme": "کار و اداره",
+    "themeEn": "Work & Office",
+    "icon": "briefcase",
+    "completed": false,
+    "wordsCount": 14,
+    "color": "mint",
+    "description": "واژگان جلسات، ایمیل کاری و همکاران"
+  },
+  {
+    "id": "v-5",
+    "theme": "حیوانات و طبیعت",
+    "themeEn": "Animals & Nature",
+    "icon": "compass",
+    "completed": false,
+    "wordsCount": 16,
+    "color": "green",
+    "description": "زیستگاه‌ها، جانوران و شگفتی‌های طبیعت"
+  }
+]

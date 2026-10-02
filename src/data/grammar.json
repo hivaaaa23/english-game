@@ -1,0 +1,400 @@
+[
+  {
+    "id": "sec-g-1",
+    "title": "Present and Past: Simple and Progressive",
+    "titleFa": "زمان‌های حال و گذشته: ساده و استمراری",
+    "description": "پایه‌های اصلی گرامر انگلیسی برای مکالمات روزمره",
+    "lessons": [
+      {
+        "id": "g-1",
+        "title": "Present Simple",
+        "titleFa": "زمان حال ساده",
+        "description": "بیان عادات روزانه، حقایق علمی و وضعیت‌های همیشگی",
+        "descriptionEn": "Express everyday routines, facts, and permanent states.",
+        "level": "A1 - Elementary",
+        "xp": 15,
+        "keyRule": "Subject + Verb (+ s/es for he/she/it)",
+        "sampleSentence": "I practice English every morning.",
+        "sampleSentenceFa": "من هر روز صبح انگلیسی تمرین می‌کنم.",
+        "theory": {
+          "rule": "زمان حال ساده (Present Simple) برای کارهایی است که به صورت عادت، روتین روزمره، یا واقعیت عمومی و علمی همیشه انجام می‌شوند.",
+          "formTable": [
+            { "type": "مثبت (+)", "structure": "I / You / We / They + work", "example": "We practice English daily." },
+            { "type": "مثبت سوم‌شخص (+)", "structure": "He / She / It + works (افزودن s/es)", "example": "She drinks tea in the morning." },
+            { "type": "منفی (-)", "structure": "Subject + don't / doesn't + Verb", "example": "They don't eat meat." },
+            { "type": "سؤالی (?)", "structure": "Do / Does + Subject + Verb?", "example": "Do you speak English?" }
+          ],
+          "examples": [
+            { "en": "I drink clean water every morning.", "fa": "من هر روز صبح آب زلال می‌نوشم." },
+            { "en": "The sun rises in the east.", "fa": "خورشید همیشه از شرق طلوع می‌کند." },
+            { "en": "She works at an architectural studio.", "fa": "او در یک استودیوی معماری کار می‌کند." }
+          ],
+          "tip": "نکته کلیدی: برای ضمایر سوم‌شخص مفرد (He, She, It) حتماً به انتهای فعل اصلی s یا es اضافه کنید!"
+        },
+        "questions": [
+          {
+            "id": "q-g1-1",
+            "type": "multiple_choice",
+            "prompt": "کدام جمله از لحاظ فرم گرامری زمان حال ساده درست است؟",
+            "options": [
+              "She drinks green tea every morning.",
+              "She drink green tea every morning.",
+              "She drinking green tea every morning.",
+              "She is drink green tea every morning."
+            ],
+            "answerIndex": 0,
+            "explanation": "برای فاعل سوم شخص مفرد (She)، به فعل اصلی پسوند s اضافه می‌شود: drinks."
+          },
+          {
+            "id": "q-g1-2",
+            "type": "fill_blank",
+            "prompt": "جای خالی را با شکل صحیح فعل داخل پرانتز کامل کنید:",
+            "sentence": "I ___ (wake up) at 7:00 AM every day.",
+            "acceptedAnswers": ["wake up", "wake"],
+            "hint": "برای ضمیر I فعل بدون تغییر و به صورت ساده می‌آید.",
+            "explanation": "پاسخ صحیح 'wake up' است؛ برای ضمیر I تغییری در فعل ایجاد نمی‌شود."
+          },
+          {
+            "id": "q-g1-3",
+            "type": "word_order",
+            "prompt": "کلمات را برای ساخت یک جمله درست به ترتیب انتخاب کنید:",
+            "promptFa": "او هر روز انگلیسی مطالعه می‌کند.",
+            "words": ["She", "studies", "English", "every", "day", "studying"],
+            "correctOrder": ["She", "studies", "English", "every", "day"],
+            "explanation": "ترتیب درست ساختار جمله در زبان انگلیسی: فاعل (She) + فعل (studies) + مفعول (English) + قید زمان (every day)."
+          },
+          {
+            "id": "q-g1-4",
+            "type": "match_pairs",
+            "prompt": "قیدهای تکرار حال ساده را با معنی فارسی آن‌ها جفت کنید:",
+            "pairs": [
+              { "en": "always", "fa": "همیشه" },
+              { "en": "usually", "fa": "معمولاً" },
+              { "en": "every day", "fa": "هر روز" },
+              { "en": "sometimes", "fa": "گاهی اوقات" }
+            ],
+            "explanation": "این قیدها نشان‌دهنده فراوانی رخداد یک کار در زمان حال ساده هستند."
+          },
+          {
+            "id": "q-g1-5",
+            "type": "listening",
+            "prompt": "به جمله صوتی گوش دهید و گزینه منطبق را انتخاب کنید:",
+            "audioText": "They live in a beautiful house.",
+            "options": [
+              "They live in a beautiful house.",
+              "They are living in a old flat.",
+              "They lived in a quiet house.",
+              "They want a modern home."
+            ],
+            "answerIndex": 0,
+            "explanation": "جمله خوانده‌شده زمان حال ساده با فعل live بود."
+          },
+          {
+            "id": "q-g1-6",
+            "type": "multiple_choice",
+            "prompt": "جمله منفی برای 'He plays football' کدام است؟",
+            "options": [
+              "He doesn't play football.",
+              "He don't play football.",
+              "He isn't play football.",
+              "He not plays football."
+            ],
+            "answerIndex": 0,
+            "explanation": "در زمان حال ساده برای He از doesn't استفاده می‌شود و s فعل حذف می‌شود."
+          },
+          {
+            "id": "q-g1-7",
+            "type": "fill_blank",
+            "prompt": "شکل صحیح فعل را در جمله سؤالی بنویسید:",
+            "sentence": "Do you ___ (like) reading books?",
+            "acceptedAnswers": ["like"],
+            "hint": "در جملات سؤالی با Do فعل به فرم ساده است.",
+            "explanation": "بعد از فعل کمکی Do همیشه شکل ساده فعل (like) قرار می‌گیرد."
+          },
+          {
+            "id": "q-g1-8",
+            "type": "word_order",
+            "prompt": "کلمات جمله منفی را به ترتیب صحیح لمس کنید:",
+            "promptFa": "ما در شهر بزرگ زندگی نمی‌کنیم.",
+            "words": ["We", "do", "not", "live", "in", "a", "big", "city", "lives"],
+            "correctOrder": ["We", "do", "not", "live", "in", "a", "big", "city"],
+            "explanation": "فرمول منفی: We + do not + live in a big city."
+          },
+          {
+            "id": "q-g1-9",
+            "type": "listening",
+            "prompt": "به کلمه صوتی گوش دهید و گزینه صحیح را بیابید:",
+            "audioText": "habitual routine",
+            "options": [
+              "habitual routine",
+              "progressive state",
+              "future schedule",
+              "past memory"
+            ],
+            "answerIndex": 0,
+            "explanation": "کلمه تلفظ‌شده habitual routine (عادت و روتین) بود."
+          }
+        ]
+      },
+      {
+        "id": "g-2",
+        "title": "Present Continuous",
+        "titleFa": "حال استمراری",
+        "description": "کارهایی که همین لحظه یا در بازه زمانی جاری در حال رخ دادن هستند",
+        "descriptionEn": "Actions happening right now or around this period of time.",
+        "level": "A1 - Elementary",
+        "xp": 15,
+        "keyRule": "Subject + am/is/are + Verb-ing",
+        "sampleSentence": "She is listening to an English podcast.",
+        "sampleSentenceFa": "او در حال گوش دادن به یک پادکست انگلیسی است.",
+        "theory": {
+          "rule": "زمان حال استمراری (Present Continuous) برای فعالیت‌هایی است که دقیقاً در زمان صحبت کردن، یا در دوره زمانی فعلی در جریان هستند.",
+          "formTable": [
+            { "type": "با I (+)", "structure": "I + am + Verb-ing", "example": "I am studying now." },
+            { "type": "با He/She/It (+)", "structure": "He / She / It + is + Verb-ing", "example": "She is reading." },
+            { "type": "با You/We/They (+)", "structure": "You / We / They + are + Verb-ing", "example": "They are walking." },
+            { "type": "منفی (-)", "structure": "Subject + am/is/are + not + Verb-ing", "example": "He isn't sleeping." }
+          ],
+          "examples": [
+            { "en": "Look! It is raining outside.", "fa": "نگاه کن! بیرون دارد باران می‌بارد." },
+            { "en": "I am learning English right now.", "fa": "من در همین لحظه دارم انگلیسی یاد می‌گیرم." },
+            { "en": "They are talking with their teacher.", "fa": "آن‌ها دارند با معلمشان صحبت می‌کنند." }
+          ],
+          "tip": "کلمات کلیدی: now (اکنون), at the moment (در این لحظه), right now, currently."
+        },
+        "questions": [
+          {
+            "id": "q-g2-1",
+            "type": "multiple_choice",
+            "prompt": "کدام گزینه برای 'آن‌ها در حال تماشای فیلم هستند' صحیح است؟",
+            "options": [
+              "They are watching a movie right now.",
+              "They watching a movie right now.",
+              "They is watching a movie right now.",
+              "They are watch a movie right now."
+            ],
+            "answerIndex": 0,
+            "explanation": "برای They از are + Verb-ing استفاده می‌شود: are watching."
+          },
+          {
+            "id": "q-g2-2",
+            "type": "fill_blank",
+            "prompt": "جای خالی را با فرم استمراری فعل داخل پرانتز کامل کنید:",
+            "sentence": "Listen! The baby is ___ (sleep) peacefully.",
+            "acceptedAnswers": ["sleeping"],
+            "hint": "به انتهای sleep پسوند ing اضافه کنید.",
+            "explanation": "پاسخ صحیح sleeping است: is sleeping."
+          },
+          {
+            "id": "q-g2-3",
+            "type": "word_order",
+            "prompt": "جمله را به ترتیب کلمات انگلیسی بچینید:",
+            "promptFa": "من در حال نوشتن یک نامه هستم.",
+            "words": ["I", "am", "writing", "a", "letter", "writes"],
+            "correctOrder": ["I", "am", "writing", "a", "letter"],
+            "explanation": "ترتیب درست: I + am + writing + a letter."
+          },
+          {
+            "id": "q-g2-4",
+            "type": "match_pairs",
+            "prompt": "عبارت‌های زمانی حال استمراری را با ترجمه جفت کنید:",
+            "pairs": [
+              { "en": "now", "fa": "اکنون" },
+              { "en": "at the moment", "fa": "در این لحظه" },
+              { "en": "right now", "fa": "همین الان" },
+              { "en": "currently", "fa": "در حال حاضر" }
+            ],
+            "explanation": "این قیدهای زمانی نشان‌دهنده استمرار کار در لحظه حال هستند."
+          },
+          {
+            "id": "q-g2-5",
+            "type": "listening",
+            "prompt": "به جمله گوش دهید و متن دقیق آن را انتخاب کنید:",
+            "audioText": "She is listening to peaceful music.",
+            "options": [
+              "She is listening to peaceful music.",
+              "She listens to fast songs.",
+              "She was hearing soft music.",
+              "She likes singing melodies."
+            ],
+            "answerIndex": 0,
+            "explanation": "صوت حال استمراری با فعل is listening را بیان کرد."
+          },
+          {
+            "id": "q-g2-6",
+            "type": "multiple_choice",
+            "prompt": "کدام فعل حالتی است و معمولاً در فرم استمراری (-ing) به کار نمی‌رود؟",
+            "options": [
+              "know (دانستن)",
+              "play (بازی کردن)",
+              "run (دویدن)",
+              "cook (آشپزی کردن)"
+            ],
+            "answerIndex": 0,
+            "explanation": "افعال حسی و ذهنی مانند know, like, want حالت هستند و به طور معمول ing نمی‌گیرند."
+          },
+          {
+            "id": "q-g2-7",
+            "type": "fill_blank",
+            "prompt": "فعل کمکی مناسب را در جای خالی بنویسید:",
+            "sentence": "What ___ you doing right now?",
+            "acceptedAnswers": ["are"],
+            "hint": "برای ضمیر you از کدام فرم to be استفاده می‌شود؟",
+            "explanation": "برای فاعل you از فعل کمکی are استفاده می‌شود: What are you doing?"
+          },
+          {
+            "id": "q-g2-8",
+            "type": "word_order",
+            "prompt": "کلمات این سؤال حال استمراری را مرتب کنید:",
+            "promptFa": "آیا علی دارد کار می‌کند؟",
+            "words": ["Is", "Ali", "working", "now", "are"],
+            "correctOrder": ["Is", "Ali", "working", "now"],
+            "explanation": "سؤال با فعل to be شروع می‌شود: Is + Ali + working now?"
+          },
+          {
+            "id": "q-g2-9",
+            "type": "listening",
+            "prompt": "به صوت با دقت گوش دهید و گزینه صحیح را پیدا کنید:",
+            "audioText": "We are walking in the green garden.",
+            "options": [
+              "We are walking in the green garden.",
+              "We walked in the dry park.",
+              "We will walk in the forest.",
+              "We are running near the garden."
+            ],
+            "answerIndex": 0,
+            "explanation": "جمله: We are walking in the green garden."
+          }
+        ]
+      },
+      {
+        "id": "g-3",
+        "title": "Simple vs Continuous",
+        "titleFa": "مقایسه حال ساده و استمراری",
+        "description": "تشخیص زمان مناسب بین کارهای روتین و لحظه‌ای همراه با افعال حالتی",
+        "descriptionEn": "Choose correctly between habits and in-progress actions.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Stative verbs (know, like, want) rarely use -ing",
+        "sampleSentence": "I understand the grammar rule now.",
+        "sampleSentenceFa": "من اکنون قاعده گرامری را متوجه می‌شوم."
+      },
+      {
+        "id": "g-4",
+        "title": "Past Simple: Regular",
+        "titleFa": "گذشته ساده: افعال باقاعده",
+        "description": "روایت کارهای تمام‌شده در گذشته با افزودن ed به انتهای فعل",
+        "descriptionEn": "Actions completed in the past using regular verb endings.",
+        "level": "A1 - Elementary",
+        "xp": 15,
+        "keyRule": "Subject + Verb-ed + Time expression",
+        "sampleSentence": "We walked in the green garden yesterday.",
+        "sampleSentenceFa": "ما دیروز در باغ سرسبز قدم زدیم."
+      },
+      {
+        "id": "g-5",
+        "title": "Past Simple: Irregular",
+        "titleFa": "گذشته ساده: افعال بی‌قاعده",
+        "description": "افعال کلیدی پرکاربرد مانند went, saw, had, spoke و کاربرد آن‌ها",
+        "descriptionEn": "Common irregular verbs that change their form in past tense.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Learn forms: go -> went, see -> saw, buy -> bought",
+        "sampleSentence": "They went to the library together.",
+        "sampleSentenceFa": "آن‌ها با هم به کتابخانه رفتند."
+      },
+      {
+        "id": "g-6",
+        "title": "Past Continuous",
+        "titleFa": "گذشته استمراری",
+        "description": "توصیف کارهایی که در گذشته برای مدتی در جریان بودند",
+        "descriptionEn": "Actions that were ongoing at a specific time in the past.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Subject + was/were + Verb-ing",
+        "sampleSentence": "I was studying when you called me.",
+        "sampleSentenceFa": "داشتم درس می‌خواندم وقتی به من زنگ زدی."
+      }
+    ]
+  },
+  {
+    "id": "sec-g-2",
+    "title": "Perfect Present & Future Pathways",
+    "titleFa": "زمان‌های کامل و مسیر آینده",
+    "description": "ارتباط بین تجربیات گذشته، زمان حال و تصمیمات آینده",
+    "lessons": [
+      {
+        "id": "g-7",
+        "title": "Present Perfect",
+        "titleFa": "حال کامل: تجربیات زندگی",
+        "description": "صحبت از تجربیاتی که زمان دقیق آن در گذشته مهم نیست",
+        "descriptionEn": "Connect past actions or life experiences with the present.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Subject + have/has + Past Participle (V3)",
+        "sampleSentence": "I have visited many beautiful cities.",
+        "sampleSentenceFa": "من شهرهای زیبای زیادی را دیده‌ام."
+      },
+      {
+        "id": "g-8",
+        "title": "For & Since in Perfect Tense",
+        "titleFa": "کاربرد For و Since در حال کامل",
+        "description": "بیان طول مدت یا نقطه شروع فعالیت‌هایی که تا امروز ادامه دارند",
+        "descriptionEn": "Express the duration or starting point of ongoing activities.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "for + duration (for 2 years) | since + starting point (since 2020)",
+        "sampleSentence": "She has lived here for five years.",
+        "sampleSentenceFa": "او به مدت پنج سال است که اینجا زندگی می‌کند."
+      },
+      {
+        "id": "g-9",
+        "title": "Present Perfect vs Past Simple",
+        "titleFa": "مقایسه حال کامل و گذشته ساده",
+        "description": "انتخاب دقیق زمان بر اساس مشخص بودن یا نبودن زمان رخداد",
+        "descriptionEn": "Understand when to specify past time versus general experience.",
+        "level": "B1 - Intermediate",
+        "xp": 25,
+        "keyRule": "Use Past Simple with exact times (yesterday, in 2018)",
+        "sampleSentence": "I saw him yesterday, but I haven't seen him today.",
+        "sampleSentenceFa": "دیروز او را دیدم، اما امروز او را ندیده‌ام."
+      },
+      {
+        "id": "g-10",
+        "title": "Future: Going to",
+        "titleFa": "آینده با Going to",
+        "description": "بیان برنامه‌ریزی‌ها، تصمیم‌های قبلی و پیش‌بینی بر اساس شواهد فعلی",
+        "descriptionEn": "Talk about prior intentions, plans, and immediate predictions.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Subject + am/is/are + going to + Base Verb",
+        "sampleSentence": "Look at the dark clouds; it is going to rain.",
+        "sampleSentenceFa": "به ابرهای تیره نگاه کن؛ قرار است باران ببارد."
+      },
+      {
+        "id": "g-11",
+        "title": "Future: Will & Shall",
+        "titleFa": "آینده با Will: تصمیمات آنی",
+        "description": "تصمیم‌گیری در همان لحظه، پیشنهادات کمک و پیش‌بینی‌های کلی",
+        "descriptionEn": "Instant decisions, offers, promises, and future opinions.",
+        "level": "A2 - Pre-Intermediate",
+        "xp": 20,
+        "keyRule": "Subject + will + Base Verb",
+        "sampleSentence": "Don't worry, I will help you with your bags.",
+        "sampleSentenceFa": "نگران نباش، من برای بردن چمدان‌ها کمکت می‌کنم."
+      },
+      {
+        "id": "g-12",
+        "title": "First Conditional",
+        "titleFa": "جملات شرطی نوع اول",
+        "description": "بیان شرط‌های محتمل در زمان حال و نتیجه منطقی آن‌ها در آینده",
+        "descriptionEn": "Real possibilities and conditions in present or future.",
+        "level": "B1 - Intermediate",
+        "xp": 25,
+        "keyRule": "If + Present Simple, will + Base Verb",
+        "sampleSentence": "If you study consistently, you will succeed.",
+        "sampleSentenceFa": "اگر با پشتکار مطالعه کنی، موفق خواهی شد."
+      }
+    ]
+  }
+]

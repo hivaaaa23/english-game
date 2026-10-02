@@ -1,0 +1,433 @@
+{
+  "activeBookId": "elementary",
+  "books": [
+    {
+      "id": "elementary",
+      "name": "Elementary",
+      "nameFa": "مقدماتی (A1 - A2)",
+      "level": "Elementary",
+      "chapters": [
+        {
+          "id": "ch-people",
+          "name": "People",
+          "nameFa": "افراد و شخصیت",
+          "description": "واژگان ضروری برای توصیف چهره، اندام، خُلق‌وخو و روابط انسانی",
+          "sections": [
+            {
+              "id": "sec-v-1",
+              "title": "Section 1: Appearance & Personality",
+              "titleFa": "بخش ۱: ظاهر و شخصیت افراد",
+              "nodes": [
+                {
+                  "id": "v-1",
+                  "title": "Face & Features",
+                  "titleFa": "چهره و اجزای صورت",
+                  "description": "توصیف مو، چشم و حالت‌های چهره",
+                  "xp": 15,
+                  "words": [
+                    { "word": "hair", "meaning": "مو", "partOfSpeech": "noun", "example": "She has long and shiny hair.", "exampleFa": "او موهای بلند و براقی دارد." },
+                    { "word": "eyes", "meaning": "چشم‌ها", "partOfSpeech": "noun", "example": "His eyes light up when he speaks English.", "exampleFa": "چشم‌هایش هنگام انگلیسی صحبت کردن می‌درخشد." },
+                    { "word": "smile", "meaning": "لبخند", "partOfSpeech": "noun/verb", "example": "A friendly smile creates trust.", "exampleFa": "یک لبخند دوستانه اعتماد ایجاد می‌کند." },
+                    { "word": "beard", "meaning": "ریش", "partOfSpeech": "noun", "example": "He decided to grow a neat beard.", "exampleFa": "او تصمیم گرفت ریش مرتبی بگذارد." },
+                    { "word": "glasses", "meaning": "عینک", "partOfSpeech": "noun", "example": "I wear glasses while reading novels.", "exampleFa": "من موقع خواندن رمان عینک می‌زنم." },
+                    { "word": "freckles", "meaning": "کک و مک", "partOfSpeech": "noun", "example": "The sunshine brought out her freckles.", "exampleFa": "نور آفتاب کک و مک‌های او را نمایان کرد." },
+                    { "word": "forehead", "meaning": "پیشانی", "partOfSpeech": "noun", "example": "He wiped the sweat from his forehead.", "exampleFa": "او عرق را از پیشانی‌اش پاک کرد." },
+                    { "word": "skin", "meaning": "پوست", "partOfSpeech": "noun", "example": "Drink plenty of water for clear skin.", "exampleFa": "برای پوست شفاف مقدار زیادی آب بنوشید." }
+                  ],
+                  "questions": [
+                    {
+                      "id": "q-v1-1",
+                      "type": "match_pairs",
+                      "prompt": "کلمات چهره را با معنی فارسی آن‌ها جفت کنید:",
+                      "pairs": [
+                        { "en": "hair", "fa": "مو" },
+                        { "en": "smile", "fa": "لبخند" },
+                        { "en": "eyes", "fa": "چشم‌ها" },
+                        { "en": "beard", "fa": "ریش" }
+                      ],
+                      "explanation": "این کلمات اجزای اصلی چهره را توصیف می‌کنند."
+                    },
+                    {
+                      "id": "q-v1-2",
+                      "type": "multiple_choice",
+                      "prompt": "کلمه 'glasses' در زبان فارسی به چه معناست؟",
+                      "options": [
+                        "عینک",
+                        "ساعت مچی",
+                        "دستکش",
+                        "شال گردن"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "Glasses یعنی عینک (به صورت جمع به کار می‌رود)."
+                    },
+                    {
+                      "id": "q-v1-3",
+                      "type": "fill_blank",
+                      "prompt": "کلمه انگلیسی 'لبخند' را در جای خالی بنویسید:",
+                      "sentence": "A warm ___ makes people feel welcome.",
+                      "acceptedAnswers": ["smile"],
+                      "hint": "با حرف s شروع می‌شود.",
+                      "explanation": "Smile به معنای لبخند است."
+                    },
+                    {
+                      "id": "q-v1-4",
+                      "type": "listening",
+                      "prompt": "به تلفظ کلمه گوش دهید و آن را انتخاب کنید:",
+                      "audioText": "freckles",
+                      "options": [
+                        "freckles",
+                        "forehead",
+                        "glasses",
+                        "beard"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "کلمه خوانده‌شده freckles به معنای کک و مک است."
+                    },
+                    {
+                      "id": "q-v1-5",
+                      "type": "word_order",
+                      "prompt": "کلمات را برای ساخت جمله توصیف چهره مرتب کنید:",
+                      "promptFa": "او موهای تیره و بلند دارد.",
+                      "words": ["She", "has", "long", "dark", "hair", "eyes"],
+                      "correctOrder": ["She", "has", "long", "dark", "hair"],
+                      "explanation": "ترتیب صفت‌ها در انگلیسی: اندازه (long) قبل از رنگ (dark) می‌آید."
+                    },
+                    {
+                      "id": "q-v1-6",
+                      "type": "multiple_choice",
+                      "prompt": "کدام کلمه به معنای 'پیشانی' است؟",
+                      "options": [
+                        "forehead",
+                        "skin",
+                        "beard",
+                        "eyebrow"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "Forehead از دو بخش fore (جلو) و head (سر) تشکیل شده و به معنی پیشانی است."
+                    },
+                    {
+                      "id": "q-v1-7",
+                      "type": "fill_blank",
+                      "prompt": "کلمه انگلیسی معادل 'پوست' را بنویسید:",
+                      "sentence": "Clean water is essential for healthy ___ .",
+                      "acceptedAnswers": ["skin"],
+                      "hint": "چهار حرفی است و با s شروع می‌شود.",
+                      "explanation": "Skin یعنی پوست."
+                    },
+                    {
+                      "id": "q-v1-8",
+                      "type": "match_pairs",
+                      "prompt": "این لغات ظاهری را به هم متصل کنید:",
+                      "pairs": [
+                        { "en": "glasses", "fa": "عینک" },
+                        { "en": "forehead", "fa": "پیشانی" },
+                        { "en": "skin", "fa": "پوست" },
+                        { "en": "freckles", "fa": "کک و مک" }
+                      ],
+                      "explanation": "همه این موارد ویژگی‌های ظاهری صورت هستند."
+                    },
+                    {
+                      "id": "q-v1-9",
+                      "type": "listening",
+                      "prompt": "به جمله صوتی گوش دهید و گزینه درست را برگزینید:",
+                      "audioText": "His eyes light up when he speaks.",
+                      "options": [
+                        "His eyes light up when he speaks.",
+                        "Her hair looks bright in the sun.",
+                        "He wears glasses when working.",
+                        "My grandfather has a gray beard."
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "جمله: His eyes light up when he speaks."
+                    }
+                  ]
+                },
+                {
+                  "id": "v-2",
+                  "title": "Height & Build",
+                  "titleFa": "قد و تناسب اندام",
+                  "description": "اصطلاحات و واژه‌های بیان قد، قامت و وزن",
+                  "xp": 15,
+                  "words": [
+                    { "word": "tall", "meaning": "بلندقد", "partOfSpeech": "adjective", "example": "He is the tallest student in our team.", "exampleFa": "او قدبلندترین دانش‌آموز تیم ماست." },
+                    { "word": "short", "meaning": "کوتاه‌قد", "partOfSpeech": "adjective", "example": "The door was made for shorter doorways.", "exampleFa": "در برای ورودی‌های کوتاه‌تر ساخته شده بود." },
+                    { "word": "slim", "meaning": "لاغر متناسب", "partOfSpeech": "adjective", "example": "Regular yoga keeps her slim and agile.", "exampleFa": "یوگای منظم او را لاغر و چابک نگه می‌دارد." },
+                    { "word": "strong", "meaning": "قوی و تنومند", "partOfSpeech": "adjective", "example": "Exercising daily makes you physically strong.", "exampleFa": "ورزش روزانه شما را از نظر جسمی قوی می‌کند." },
+                    { "word": "muscular", "meaning": "عضلانی", "partOfSpeech": "adjective", "example": "The athlete has a muscular physique.", "exampleFa": "ورزشکار بدنی عضلانی دارد." },
+                    { "word": "fit", "meaning": "روی فرم و سالم", "partOfSpeech": "adjective", "example": "Cycling helps everyone stay fit.", "exampleFa": "دوچرخه‌سواری به همه کمک می‌کند روی فرم بمانند." },
+                    { "word": "medium-height", "meaning": "متوسط‌قامت", "partOfSpeech": "adjective", "example": "She is of medium-height with brown eyes.", "exampleFa": "او با قدی متوسط و چشمانی قهوه‌ای است." },
+                    { "word": "posture", "meaning": "طرز ایستادن و نشستن", "partOfSpeech": "noun", "example": "Good posture prevents back pain.", "exampleFa": "طرز نشستن صحیح مانع از کمردرد می‌شود." }
+                  ],
+                  "questions": [
+                    {
+                      "id": "q-v2-1",
+                      "type": "match_pairs",
+                      "prompt": "کلمات توصیف اندام را با معنای فارسی جفت کنید:",
+                      "pairs": [
+                        { "en": "tall", "fa": "بلندقد" },
+                        { "en": "short", "fa": "کوتاه‌قد" },
+                        { "en": "slim", "fa": "لاغر متناسب" },
+                        { "en": "strong", "fa": "قوی و تنومند" }
+                      ],
+                      "explanation": "صفات متداول برای توصیف قد و جثه."
+                    },
+                    {
+                      "id": "q-v2-2",
+                      "type": "multiple_choice",
+                      "prompt": "کدام صفت به معنای 'روی فرم و آماده جسمانی' است؟",
+                      "options": [
+                        "fit",
+                        "weak",
+                        "tired",
+                        "lazy"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "Fit یعنی روی فرم، تندرست و آماده."
+                    },
+                    {
+                      "id": "q-v2-3",
+                      "type": "fill_blank",
+                      "prompt": "کلمه انگلیسی 'قوی' را در جای خالی تایپ کنید:",
+                      "sentence": "Daily exercise makes your body ___ .",
+                      "acceptedAnswers": ["strong"],
+                      "hint": "شش حرف دارد و با s شروع می‌شود.",
+                      "explanation": "Strong یعنی قوی و نیرومند."
+                    },
+                    {
+                      "id": "q-v2-4",
+                      "type": "listening",
+                      "prompt": "به تلفظ صوتی صفت گوش دهید و آن را انتخاب کنید:",
+                      "audioText": "muscular",
+                      "options": [
+                        "muscular",
+                        "medium-height",
+                        "posture",
+                        "slender"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "کلمه خوانده‌شده muscular (عضلانی) بود."
+                    },
+                    {
+                      "id": "q-v2-5",
+                      "type": "word_order",
+                      "prompt": "کلمات را برای ساخت جمله صحیح بچینید:",
+                      "promptFa": "او بلندقد و بسیار متناسب است.",
+                      "words": ["He", "is", "tall", "and", "very", "fit", "short"],
+                      "correctOrder": ["He", "is", "tall", "and", "very", "fit"],
+                      "explanation": "ترتیب درست: He is tall and very fit."
+                    },
+                    {
+                      "id": "q-v2-6",
+                      "type": "multiple_choice",
+                      "prompt": "متضاد کلمه 'tall' کدام است؟",
+                      "options": [
+                        "short",
+                        "slim",
+                        "heavy",
+                        "fit"
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "متضاد tall (بلندقد)، صفت short (کوتاه‌قد) است."
+                    },
+                    {
+                      "id": "q-v2-7",
+                      "type": "fill_blank",
+                      "prompt": "کلمه مناسب را بنویسید (لاغر و متناسب):",
+                      "sentence": "She does gymnastics so she is very ___ .",
+                      "acceptedAnswers": ["slim", "fit"],
+                      "hint": "چهار حرفی، با s شروع می‌شود.",
+                      "explanation": "Slim به معنای لاغر خوش‌اندام و متناسب است."
+                    },
+                    {
+                      "id": "q-v2-8",
+                      "type": "match_pairs",
+                      "prompt": "این واژگان تکمیلی را جفت کنید:",
+                      "pairs": [
+                        { "en": "muscular", "fa": "عضلانی" },
+                        { "en": "fit", "fa": "روی فرم" },
+                        { "en": "posture", "fa": "طرز ایستادن" },
+                        { "en": "medium-height", "fa": "متوسط‌قامت" }
+                      ],
+                      "explanation": "واژگان تخصصی‌تر برای توصیف فیزیک و استایل بدنی."
+                    },
+                    {
+                      "id": "q-v2-9",
+                      "type": "listening",
+                      "prompt": "به جمله انگلیسی گوش دهید و گزینه درست را پیدا کنید:",
+                      "audioText": "Good posture prevents back pain.",
+                      "options": [
+                        "Good posture prevents back pain.",
+                        "Heavy lifting makes you tired.",
+                        "Running fast improves your speed.",
+                        "Sleeping well refreshes your mind."
+                      ],
+                      "answerIndex": 0,
+                      "explanation": "جمله: Good posture prevents back pain."
+                    }
+                  ]
+                },
+                {
+                  "id": "v-3",
+                  "title": "Personality Traits",
+                  "titleFa": "ویژگی‌های اخلاقی",
+                  "description": "توصیف خصوصیات روحی و اخلاق مثبت و منفی",
+                  "xp": 15,
+                  "words": [
+                    { "word": "kind", "meaning": "مهربان", "partOfSpeech": "adjective", "example": "She always says kind words to everyone.", "exampleFa": "او همیشه کلمات محبت‌آمیز به دیگران می‌گوید." },
+                    { "word": "polite", "meaning": "مؤدب", "partOfSpeech": "adjective", "example": "It is polite to hold the door open.", "exampleFa": "مؤدبانه است که در را برای دیگران باز نگه دارید." },
+                    { "word": "cheerful", "meaning": "شاداب و پرانرژی", "partOfSpeech": "adjective", "example": "A cheerful smile greeted us at the desk.", "exampleFa": "لبخندی شاداب در میز پذیرش به ما خوش‌آمد گفت." },
+                    { "word": "honest", "meaning": "صادق و راستگو", "partOfSpeech": "adjective", "example": "Always be honest in your answers.", "exampleFa": "همیشه در پاسخ‌هایتان صادق باشید." },
+                    { "word": "patient", "meaning": "صبور", "partOfSpeech": "adjective", "example": "Teachers need to be very patient.", "exampleFa": "معلمان باید بسیار صبور باشند." },
+                    { "word": "brave", "meaning": "شجاع", "partOfSpeech": "adjective", "example": "The brave firefighter entered the house.", "exampleFa": "آتش‌نشان شجاع وارد ساختمان شد." },
+                    { "word": "curious", "meaning": "کنجکاو", "partOfSpeech": "adjective", "example": "Curious learners master languages faster.", "exampleFa": "زبان‌آموزان کنجکاو سریع‌تر زبان را یاد می‌گیرند." },
+                    { "word": "generous", "meaning": "دست‌ودلباز", "partOfSpeech": "adjective", "example": "He made a generous donation to charity.", "exampleFa": "او کمکی سخاوتمندانه به خیریه کرد." }
+                  ]
+                },
+                {
+                  "id": "v-4",
+                  "title": "Feelings & Emotions",
+                  "titleFa": "احساسات و هیجانات",
+                  "description": "کلمات بیان حس و حال درونی و واکنش‌های عاطفی",
+                  "xp": 15,
+                  "words": [
+                    { "word": "happy", "meaning": "خوشحال", "partOfSpeech": "adjective", "example": "We were happy with the final test results.", "exampleFa": "ما از نتایج نهایی آزمون خوشحال بودیم." },
+                    { "word": "calm", "meaning": "آرام و خونسرد", "partOfSpeech": "adjective", "example": "Take deep breaths to remain calm.", "exampleFa": "برای آرام ماندن نفس‌های عمیق بکشید." },
+                    { "word": "nervous", "meaning": "مضطرب و نگران", "partOfSpeech": "adjective", "example": "I felt nervous before giving the speech.", "exampleFa": "قبل از سخنرانی احساس اضطراب داشتم." },
+                    { "word": "excited", "meaning": "هیجان‌زده", "partOfSpeech": "adjective", "example": "The children are excited about the picnic.", "exampleFa": "کودکان برای گردش در طبیعت هیجان‌زده هستند." },
+                    { "word": "proud", "meaning": "مفتخر و سربلند", "partOfSpeech": "adjective", "example": "Her parents were proud of her graduation.", "exampleFa": "والدینش به فارغ‌التحصیلی او افتخار می‌کردند." },
+                    { "word": "grateful", "meaning": "سپاسگزار", "partOfSpeech": "adjective", "example": "I am grateful for all your support.", "exampleFa": "من بابت تمام حمایت‌هایت سپاسگزارم." },
+                    { "word": "surprised", "meaning": "غافلگیر شده", "partOfSpeech": "adjective", "example": "Everyone was surprised by the party.", "exampleFa": "همه از مهمانی غافلگیر شدند." },
+                    { "word": "confident", "meaning": "بااعتمادبه‌نفس", "partOfSpeech": "adjective", "example": "Practice makes you confident in speaking.", "exampleFa": "تمرین باعث اعتمادبه‌نفس شما در مکالمه می‌شود." }
+                  ]
+                },
+                {
+                  "id": "v-5",
+                  "title": "Family & Relatives",
+                  "titleFa": "اعضای خانواده و خویشاوندان",
+                  "description": "نام‌گذاری خویشاوندان و روابط خانوادگی",
+                  "xp": 15,
+                  "words": [
+                    { "word": "parents", "meaning": "والدین", "partOfSpeech": "noun", "example": "My parents encourage my studies.", "exampleFa": "والدین من مشوق درس خواندنم هستند." },
+                    { "word": "sibling", "meaning": "خواهر یا برادر", "partOfSpeech": "noun", "example": "Do you have any brothers or sisters?", "exampleFa": "آیا خواهر یا برادری داری؟" },
+                    { "word": "cousin", "meaning": "پسر/دختر عمو، دایی، عمه، خاله", "partOfSpeech": "noun", "example": "My cousin lives in another city.", "exampleFa": "پسرعموی من در شهر دیگری زندگی می‌کند." },
+                    { "word": "aunt", "meaning": "عمه / خاله", "partOfSpeech": "noun", "example": "My aunt makes delicious Persian cakes.", "exampleFa": "خاله‌ام کیک‌های لذیذ ایرانی درست می‌کند." },
+                    { "word": "uncle", "meaning": "عمو / دایی", "partOfSpeech": "noun", "example": "Uncle Ali showed us his camera collection.", "exampleFa": "دایی علی مجموعه دوربین‌هایش را به ما نشان داد." },
+                    { "word": "nephew", "meaning": "پسر برادر یا پسر خواهر", "partOfSpeech": "noun", "example": "I bought a storybook for my nephew.", "exampleFa": "یک کتاب داستان برای خواهرزاده‌ام خریدم." },
+                    { "word": "niece", "meaning": "دختر برادر یا دختر خواهر", "partOfSpeech": "noun", "example": "Her niece loves drawing nature scenes.", "exampleFa": "برادرزاده‌اش عاشق کشیدن صحنه‌های طبیعت است." },
+                    { "word": "grandparents", "meaning": "پدربزرگ و مادربزرگ", "partOfSpeech": "noun", "example": "We visit our grandparents every Friday.", "exampleFa": "ما هر جمعه به دیدن پدربزرگ و مادربزرگمان می‌رویم." }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sec-v-2",
+              "title": "Section 2: Social Roles & Daily Connections",
+              "titleFa": "بخش ۲: نقش‌های اجتماعی و ارتباطات",
+              "nodes": [
+                {
+                  "id": "v-6",
+                  "title": "Jobs & Careers",
+                  "titleFa": "مشاغل و حرفه‌ها",
+                  "description": "عناوین شغلی رایج در جامعه",
+                  "xp": 20,
+                  "words": [
+                    { "word": "teacher", "meaning": "معلم", "partOfSpeech": "noun", "example": "Our English teacher explains clearly.", "exampleFa": "معلم انگلیسی ما شفاف توضیح می‌دهد." },
+                    { "word": "doctor", "meaning": "پزشک", "partOfSpeech": "noun", "example": "The doctor examined the patient carefully.", "exampleFa": "پزشک بیمار را با دقت معاینه کرد." },
+                    { "word": "engineer", "meaning": "مهندس", "partOfSpeech": "noun", "example": "Civil engineers design bridges and roads.", "exampleFa": "مهندسان عمران پل‌ها و جاده‌ها را طراحی می‌کنند." },
+                    { "word": "artist", "meaning": "هنرمند", "partOfSpeech": "noun", "example": "The artist paints with soft green shades.", "exampleFa": "هنرمند با رنگ‌های سبز ملایم نقاشی می‌کند." },
+                    { "word": "nurse", "meaning": "پرستار", "partOfSpeech": "noun", "example": "Nurses work hard to care for patients.", "exampleFa": "پرستاران برای مراقبت از بیماران سخت تلاش می‌کنند." },
+                    { "word": "chef", "meaning": "سرآشپز", "partOfSpeech": "noun", "example": "The chef prepared a wonderful herbal soup.", "exampleFa": "سرآشپز سوپ گیاهی شگفت‌انگیزی تهیه کرد." },
+                    { "word": "pilot", "meaning": "خلبان", "partOfSpeech": "noun", "example": "The pilot flew safely through the clouds.", "exampleFa": "خلبان با ایمنی از میان ابرها پرواز کرد." },
+                    { "word": "lawyer", "meaning": "وکیل", "partOfSpeech": "noun", "example": "The lawyer gave helpful legal guidance.", "exampleFa": "وکیل راهنمایی‌های حقوقی مفیدی ارائه داد." }
+                  ]
+                },
+                {
+                  "id": "v-7",
+                  "title": "Clothes & Attire",
+                  "titleFa": "پوشاک و لباس افراد",
+                  "description": "واژگان لباس و پوشش در موقعیت‌های مختلف",
+                  "xp": 20,
+                  "words": [
+                    { "word": "jacket", "meaning": "کت / کاپشن", "partOfSpeech": "noun", "example": "Wear a warm jacket in cool weather.", "exampleFa": "در هوای خنک یک کاپشن گرم بپوش." },
+                    { "word": "shirt", "meaning": "پیراهن", "partOfSpeech": "noun", "example": "He chose a clean white shirt for work.", "exampleFa": "او یک پیراهن سفید تمیز برای سر کار انتخاب کرد." },
+                    { "word": "trousers", "meaning": "شلوار", "partOfSpeech": "noun", "example": "These cotton trousers are comfortable.", "exampleFa": "این شلوار نخی بسیار راحت است." },
+                    { "word": "shoes", "meaning": "کفش‌ها", "partOfSpeech": "noun", "example": "Walking shoes keep your feet healthy.", "exampleFa": "کفش پیاده‌روی پاهای شما را سالم نگه می‌دارد." },
+                    { "word": "scarf", "meaning": "شال‌گردن / روسری", "partOfSpeech": "noun", "example": "A soft wool scarf keeps the neck warm.", "exampleFa": "یک شال پشمی نرم گردن را گرم نگه می‌دارد." },
+                    { "word": "sweater", "meaning": "پلیور / ژاکت", "partOfSpeech": "noun", "example": "She knitted a lovely green sweater.", "exampleFa": "او یک پلیور سبز زیبا بافت." },
+                    { "word": "boots", "meaning": "چکمه", "partOfSpeech": "noun", "example": "Wear waterproof boots when it rains.", "exampleFa": "وقتی باران می‌آید چکمه ضدآب بپوش." },
+                    { "word": "belt", "meaning": "کمربند", "partOfSpeech": "noun", "example": "He fastened his brown leather belt.", "exampleFa": "او کمربند چرم قهوه‌ای‌اش را بست." }
+                  ]
+                },
+                {
+                  "id": "v-8",
+                  "title": "Friends & Companions",
+                  "titleFa": "دوستان و آشنایان",
+                  "description": "روابط دوستی، همکاران و معاشرت در اجتماع",
+                  "xp": 20,
+                  "words": [
+                    { "word": "neighbor", "meaning": "همسایه", "partOfSpeech": "noun", "example": "Our neighbor shares fresh herbs with us.", "exampleFa": "همسایه ما سبزی تازه با ما به اشتراک می‌گذارد." },
+                    { "word": "teammate", "meaning": "هم‌تیمی", "partOfSpeech": "noun", "example": "Trust between teammates leads to victory.", "exampleFa": "اعتماد بین هم‌تیمی‌ها به پیروزی می‌انجامد." },
+                    { "word": "classmate", "meaning": "هم‌کلاسی", "partOfSpeech": "noun", "example": "My classmates and I formed a study group.", "exampleFa": "من و هم‌کلاسی‌هایم یک گروه درسی تشکیل دادیم." },
+                    { "word": "partner", "meaning": "شریک / همراه", "partOfSpeech": "noun", "example": "Practice speaking with your conversation partner.", "exampleFa": "با همراه مکالمه‌ات صحبت کردن را تمرین کن." },
+                    { "word": "guest", "meaning": "مهمان", "partOfSpeech": "noun", "example": "We welcomed our guests with hot tea.", "exampleFa": "ما با چای داغ به مهمانانمان خوش‌آمد گفتیم." },
+                    { "word": "stranger", "meaning": "غریبه", "partOfSpeech": "noun", "example": "A kind stranger gave directions on the street.", "exampleFa": "یک غریبه مهربان در خیابان آدرس را نشان داد." },
+                    { "word": "buddy", "meaning": "رفیق / دوست صمیمی", "partOfSpeech": "noun", "example": "He has been my gym buddy for two years.", "exampleFa": "او دو سال است که رفیق ورزشی من است." },
+                    { "word": "community", "meaning": "جامعه / محله", "partOfSpeech": "noun", "example": "Our local community is very supportive.", "exampleFa": "جامعه محلی ما بسیار حامی و دلسوز است." }
+                  ]
+                },
+                {
+                  "id": "v-9",
+                  "title": "Daily Routines",
+                  "titleFa": "روتین‌ها و کارهای روزمره",
+                  "description": "افعال و کلمات کارهای هر روزه افراد",
+                  "xp": 20,
+                  "words": [
+                    { "word": "commute", "meaning": "رفت‌وآمد روزانه", "partOfSpeech": "verb/noun", "example": "Many people commute by public subway.", "exampleFa": "بسیاری از مردم با مترو رفت‌وآمد می‌کنند." },
+                    { "word": "exercise", "meaning": "ورزش کردن", "partOfSpeech": "verb/noun", "example": "I exercise twenty minutes every morning.", "exampleFa": "من هر روز صبح بیست دقیقه ورزش می‌کنم." },
+                    { "word": "prepare", "meaning": "آماده کردن / مهیا شدن", "partOfSpeech": "verb", "example": "Prepare your backpack the night before.", "exampleFa": "کوله پشتی خود را شب قبل آماده کن." },
+                    { "word": "relax", "meaning": "استراحت و آرامش یافتن", "partOfSpeech": "verb", "example": "Listen to calm nature sounds to relax.", "exampleFa": "برای استراحت به صداهای آرامش‌بخش طبیعت گوش بده." },
+                    { "word": "gather", "meaning": "دور هم جمع شدن", "partOfSpeech": "verb", "example": "The family gathers for dinner at eight.", "exampleFa": "خانواده ساعت هشت برای شام دور هم جمع می‌شوند." },
+                    { "word": "schedule", "meaning": "برنامه زمانی", "partOfSpeech": "noun/verb", "example": "Check your schedule before setting meetings.", "exampleFa": "قبل از تعیین جلسات، برنامه زمانی خود را بررسی کن." },
+                    { "word": "tidy up", "meaning": "مرتب و تمیز کردن", "partOfSpeech": "verb", "example": "Let's tidy up the study desk first.", "exampleFa": "بیایید اول میز مطالعه را مرتب کنیم." },
+                    { "word": "reflect", "meaning": "تأمل و مرور روز", "partOfSpeech": "verb", "example": "Reflect on what new words you learned today.", "exampleFa": "روی کلمات جدیدی که امروز یاد گرفتی تأمل کن." }
+                  ]
+                },
+                {
+                  "id": "v-10",
+                  "title": "Hobbies & Interests",
+                  "titleFa": "سرگرمی‌ها و علایق افراد",
+                  "description": "فعالیت‌های لذت‌بخش در اوقات فراغت",
+                  "xp": 25,
+                  "words": [
+                    { "word": "gardening", "meaning": "باغبانى و گل‌کاری", "partOfSpeech": "noun", "example": "Gardening brings peace and fresh greenery.", "exampleFa": "باغبانی آرامش و طراوت سرسبز به ارمغان می‌آورد." },
+                    { "word": "cooking", "meaning": "آشپزی", "partOfSpeech": "noun", "example": "She enjoys cooking healthy homemade meals.", "exampleFa": "او از پختن غذاهای خانگی سالم لذت می‌برد." },
+                    { "word": "painting", "meaning": "نقاشی کشیدن", "partOfSpeech": "noun", "example": "Watercolor painting is his favorite hobby.", "exampleFa": "نقاشی با آبرنگ سرگرمی مورد علاقه اوست." },
+                    { "word": "traveling", "meaning": "سفر کردن", "partOfSpeech": "noun", "example": "Traveling opens the mind to new cultures.", "exampleFa": "سفر ذهن را به روی فرهنگ‌های جدید باز می‌کند." },
+                    { "word": "swimming", "meaning": "شنا کردن", "partOfSpeech": "noun", "example": "Swimming in clear water refreshes the body.", "exampleFa": "شنا در آب زلال بدن را شاداب می‌کند." },
+                    { "word": "reading", "meaning": "مطالعه و کتابخوانی", "partOfSpeech": "noun", "example": "Reading English short stories builds vocabulary.", "exampleFa": "خواندن داستان‌های کوتاه انگلیسی دایره لغات را می‌سازد." },
+                    { "word": "photography", "meaning": "عکاسی", "partOfSpeech": "noun", "example": "Nature photography requires patience.", "exampleFa": "عکاسی طبیعت نیازمند صبر و حوصله است." },
+                    { "word": "cycling", "meaning": "دوچرخه‌سواری", "partOfSpeech": "noun", "example": "Cycling through green parks is refreshing.", "exampleFa": "دوچرخه‌سواری در پارک‌های سرسبز نشاط‌آور است." }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-intermediate",
+      "name": "Pre-Intermediate",
+      "nameFa": "پیش‌متوسط (B1)",
+      "level": "Pre-Intermediate",
+      "chapters": []
+    },
+    {
+      "id": "intermediate",
+      "name": "Intermediate",
+      "nameFa": "متوسط (B2)",
+      "level": "Intermediate",
+      "chapters": []
+    }
+  ]
+}
